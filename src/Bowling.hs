@@ -1,5 +1,5 @@
 module Bowling where
 
 scoreGame :: String -> Int
-scoreGame _ = 1
+scoreGame _ = 0
 
