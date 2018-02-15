@@ -1,5 +1,18 @@
 # Bowling Kata
 
+## How to run
+
+Requires "haskell-platform" with cabal. To run the tests:
+
+    $ make test
+
+To watch for changes and run tests continuously
+(currently depends on `ag` and `entr`):
+
+    $ make dev
+
+## Rules
+
 Kata rules taken from: http://codingdojo.org/cgi-bin/index.pl?KataBowling
 
 Create a program, which, given a valid sequence of rolls for one line of
